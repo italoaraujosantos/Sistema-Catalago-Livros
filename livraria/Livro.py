@@ -1,3 +1,5 @@
+import json
+
 class Livro:
     def __init__(self, id, nome, descricao, preco, qtd_estoque):
         self.id = id
@@ -33,5 +35,11 @@ class Livro:
         for livro in livros:
             print(f"Id: {livro.id} | Nome: {livro.nome} | Descricao: {livro.descricao} | Preco: R${livro.preco:.2f} | Quantidade: {livro.qtd_estoque} \n")
 
-
-
+    def gravarArquivoJSON(dados, nomeArquivo):
+        # Se os dados forem uma string JSON, convertemos para objeto Python primeiro
+        if isinstance(dados, str):
+            dados = json.loads(dados)
+        # Abre o arquivo no modo de escrita ('w') com codificação UTF-8
+        with open(nomeArquivo, 'w', encoding='utf-8') as arquivo:
+            # Grava os dados diretamente no arquivo de forma formatada
+            json.dump(dados, arquivo, indent=4, ensure_ascii=False, sort_keys=True)
