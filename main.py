@@ -7,4 +7,4 @@ if __name__ == '__main__':
     Livro.imprimirLeitura(catalogo_livros)
 
     #Gravar dados em json
-    Livro.gravarArquivoJSON(catalogo_livros, "catalogo.json")
+    Livro.gravarArquivoJSON(catalogo_livros.Livro.to_dict(), "catalogo.json")

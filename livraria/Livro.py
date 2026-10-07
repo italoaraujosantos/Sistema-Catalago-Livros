@@ -8,6 +8,9 @@ class Livro:
         self.preco = preco
         self.qtd_estoque = qtd_estoque
 
+    def to_dict(self):
+        return self.__dict__
+
     def lerArquivoTXT(nomeArquivo: str) -> list[Livro]:
         livros = []
         with open(nomeArquivo, 'r', encoding='utf-8') as arquivo:
