@@ -31,7 +31,7 @@ class Livro:
 
     def imprimirLeitura(livros: list[Livro]):
         for livro in livros:
-            print(f"Id: {livro.id} | Nome:{livro.nome} | Descricao:{livro.descricao} | Preco:R${livro.preco:.2f} | Quantidade:R${livro.qtd_estoque} \n")
+            print(f"Id: {livro.id} | Nome: {livro.nome} | Descricao: {livro.descricao} | Preco: R${livro.preco:.2f} | Quantidade: {livro.qtd_estoque} \n")
 
 
 
