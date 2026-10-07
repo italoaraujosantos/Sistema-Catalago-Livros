@@ -46,3 +46,16 @@ class Livro:
         with open(nomeArquivo, 'w', encoding='utf-8') as arquivo:
             # Grava os dados diretamente no arquivo de forma formatada
             json.dump(dados, arquivo, indent=4, ensure_ascii=False, sort_keys=True)
+
+    def lerArquivoJSON(nomeArquivo: str) -> list[Livro]:
+        livros = []
+        with open(nomeArquivo, 'r', encoding='utf-8') as arquivo:
+            livros = json.load(arquivo)
+        return livros
+
+    def imprimirLeituraJSON(livros: list[Livro]):
+        for livro in livros:
+            if livro.qtd_estoque > 15:
+                print(f"Id: {livro.id} | Nome: {livro.nome} | Descricao: {livro.descricao} | Preco: R${livro.preco:.2f} | Quantidade: {livro.qtd_estoque}")
+
+
