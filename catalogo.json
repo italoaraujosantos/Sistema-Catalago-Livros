@@ -1,0 +1,212 @@
+[
+    {
+        "descricao": "Classico da literatura espanhola",
+        "id": 1,
+        "nome": "Dom Quixote",
+        "preco": 45.9,
+        "qtd_estoque": 10
+    },
+    {
+        "descricao": "Distopia sobre vigilancia e totalitarismo",
+        "id": 2,
+        "nome": "1984",
+        "preco": 39.9,
+        "qtd_estoque": 25
+    },
+    {
+        "descricao": "Aventura epica na Terra Media",
+        "id": 3,
+        "nome": "O Senhor dos Aneis",
+        "preco": 120.0,
+        "qtd_estoque": 5
+    },
+    {
+        "descricao": "Fabula politica sobre poder",
+        "id": 4,
+        "nome": "A Revolucao dos Bichos",
+        "preco": 29.9,
+        "qtd_estoque": 40
+    },
+    {
+        "descricao": "Conto filosofico sobre a vida",
+        "id": 5,
+        "nome": "O Pequeno Principe",
+        "preco": 19.9,
+        "qtd_estoque": 50
+    },
+    {
+        "descricao": "Suspense e misterio historico",
+        "id": 6,
+        "nome": "O Codigo Da Vinci",
+        "preco": 34.5,
+        "qtd_estoque": 12
+    },
+    {
+        "descricao": "Fantasia e magia",
+        "id": 7,
+        "nome": "Harry Potter e a Pedra Filosofal",
+        "preco": 49.9,
+        "qtd_estoque": 30
+    },
+    {
+        "descricao": "Romance dramatico jovem",
+        "id": 8,
+        "nome": "A Culpa e das Estrelas",
+        "preco": 35.0,
+        "qtd_estoque": 18
+    },
+    {
+        "descricao": "Preludio da saga do anel",
+        "id": 9,
+        "nome": "O Hobbit",
+        "preco": 42.0,
+        "qtd_estoque": 22
+    },
+    {
+        "descricao": "Realismo magico latino",
+        "id": 10,
+        "nome": "Cem Anos de Solidao",
+        "preco": 55.0,
+        "qtd_estoque": 8
+    },
+    {
+        "descricao": "Romance classico ingles",
+        "id": 11,
+        "nome": "Orgulho e Preconceito",
+        "preco": 30.0,
+        "qtd_estoque": 14
+    },
+    {
+        "descricao": "Classico da literatura russa",
+        "id": 12,
+        "nome": "Crime e Castigo",
+        "preco": 60.0,
+        "qtd_estoque": 7
+    },
+    {
+        "descricao": "Jornada de autoconhecimento",
+        "id": 13,
+        "nome": "O Alquimista",
+        "preco": 32.9,
+        "qtd_estoque": 100
+    },
+    {
+        "descricao": "Drama na Segunda Guerra",
+        "id": 14,
+        "nome": "A Menina que Roubava Livros",
+        "preco": 44.0,
+        "qtd_estoque": 15
+    },
+    {
+        "descricao": "Ficcao cientifica epica no deserto",
+        "id": 15,
+        "nome": "Duna",
+        "preco": 75.0,
+        "qtd_estoque": 20
+    },
+    {
+        "descricao": "Mitologia grega moderna",
+        "id": 16,
+        "nome": "Percy Jackson e o Ladrao de Raios",
+        "preco": 39.9,
+        "qtd_estoque": 25
+    },
+    {
+        "descricao": "Sobrevivencia e distopia futurista",
+        "id": 17,
+        "nome": "Jogos Vorazes",
+        "preco": 45.0,
+        "qtd_estoque": 19
+    },
+    {
+        "descricao": "Terror psicologico isolado",
+        "id": 18,
+        "nome": "O Iluminado",
+        "preco": 50.0,
+        "qtd_estoque": 11
+    },
+    {
+        "descricao": "Livro pioneiro do genero Cyberpunk",
+        "id": 19,
+        "nome": "Neuromancer",
+        "preco": 48.5,
+        "qtd_estoque": 9
+    },
+    {
+        "descricao": "Mundo onde livros sao proibidos",
+        "id": 20,
+        "nome": "Fahrenheit 451",
+        "preco": 35.9,
+        "qtd_estoque": 21
+    },
+    {
+        "descricao": "Distopia teocratica feminina",
+        "id": 21,
+        "nome": "O Conto da Aia",
+        "preco": 42.5,
+        "qtd_estoque": 13
+    },
+    {
+        "descricao": "Drama historico sobre redencao",
+        "id": 22,
+        "nome": "Os Miseraveis",
+        "preco": 85.0,
+        "qtd_estoque": 4
+    },
+    {
+        "descricao": "Ficcao sobre controle social",
+        "id": 23,
+        "nome": "Admiravel Mundo Novo",
+        "preco": 38.0,
+        "qtd_estoque": 27
+    },
+    {
+        "descricao": "Fantasia medieval e intrigas",
+        "id": 24,
+        "nome": "A Guerra dos Tronos",
+        "preco": 65.0,
+        "qtd_estoque": 33
+    },
+    {
+        "descricao": "A historia de um arcanista lendario",
+        "id": 25,
+        "nome": "O Nome do Vento",
+        "preco": 59.9,
+        "qtd_estoque": 16
+    },
+    {
+        "descricao": "Classico brasileiro",
+        "id": 26,
+        "nome": "Memorias Postumas de Bras Cubas",
+        "preco": 25.0,
+        "qtd_estoque": 45
+    },
+    {
+        "descricao": "Romance naturalista sobre a sociedade",
+        "id": 27,
+        "nome": "O Cortico",
+        "preco": 22.0,
+        "qtd_estoque": 30
+    },
+    {
+        "descricao": "A vida de jovens abandonados na Bahia",
+        "id": 28,
+        "nome": "Capitaes da Areia",
+        "preco": 28.9,
+        "qtd_estoque": 35
+    },
+    {
+        "descricao": "O drama da seca no sertao nordestino",
+        "id": 29,
+        "nome": "Vidas Secas",
+        "preco": 27.5,
+        "qtd_estoque": 28
+    },
+    {
+        "descricao": "O ultimo romance de Clarice Lispector",
+        "id": 30,
+        "nome": "A Hora da Estrela",
+        "preco": 29.9,
+        "qtd_estoque": 17
+    }
+]
